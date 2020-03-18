@@ -48,22 +48,7 @@ def read_file(name):
         return "Unknown"
 
 version_output_tmpl = """
-Version:          VyOS {{version}}
-Built by:         {{built_by}}
-Built on:         {{built_on}}
-Build UUID:       {{build_uuid}}
-Build Commit ID:  {{build_git}}
-
-Architecture:     {{system_arch}}
-Boot via:         {{boot_via}}
-System type:      {{system_type}}
-
-Hardware vendor:  {{hardware_vendor}}
-Hardware model:   {{hardware_model}}
-Hardware S/N:     {{hardware_serial}}
-Hardware UUID:    {{hardware_uuid}}
-
-Copyright:        VyOS maintainers and contributors
+Version:          InfinityOS {{version}}
 
 """
 
